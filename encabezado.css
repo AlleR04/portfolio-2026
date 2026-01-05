@@ -1,0 +1,64 @@
+.encabezado{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    background-color:#456882;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 23px;
+    font-weight: 300;
+    color: white;
+}
+
+.encabezado .web-logo{
+    
+    display: inline-block;
+    padding: 12px;
+    
+}
+
+.encabezado .web-logo p{
+    margin: 0;
+}
+
+
+.encabezado .item-menu li::marker{
+    content: "";
+}
+
+.encabezado .item-menu li{
+    padding: 12px;
+    transition: color .3s;
+}
+
+.encabezado .item-menu li:hover{
+
+    cursor: pointer;
+}
+
+
+.encabezado .item-menu ol{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.encabezado .item-menu a{
+    text-decoration: none;
+    color: white;
+    transition: color .3s;
+}
+
+.encabezado .item-menu a:hover{
+    color: rgba(0, 255, 0, 0.979);
+}
+
+
+

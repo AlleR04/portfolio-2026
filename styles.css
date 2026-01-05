@@ -1,0 +1,12 @@
+html{
+    background-color: black;
+    font-family: "Roboto", sans-serif, Arial, Helvetica;
+    scroll-behavior: smooth;
+}
+
+.principal{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+}

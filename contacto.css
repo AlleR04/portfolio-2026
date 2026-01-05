@@ -1,0 +1,10 @@
+.contacto{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 2012px;
+    background-color: rgb(27, 31, 36); 
+    z-index: -1;
+    height: 450px;
+    color: aliceblue;
+}

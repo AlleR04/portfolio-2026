@@ -1,0 +1,122 @@
+.proyectos{
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 520px;
+    top: 1020px;
+    z-index: -1;
+    
+    background-color: rgb(27, 31, 36);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.proyectos h2{
+    display: block;
+    margin: 12px;
+    text-align: center;
+    color: white;
+}
+
+.proyectos .prj{
+    color: rgb(18, 189, 255);
+}
+
+
+.projects-menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 32px;
+    
+    width: 70%;
+    
+}
+
+.projects-menu .project-div{
+    width: 100%;
+    
+    background-color: rgb(82, 97, 114);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 6px;
+    
+}
+
+
+
+
+.project-icon{
+    
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+}
+
+.project-icon img{
+    object-fit: contain;
+    
+    border-radius: 50%;
+    
+    
+}
+
+.project-description h2{
+    font-size: 18px;
+    color: rgb(18, 189, 255);
+    text-align: left;
+}
+
+.project-description p{
+    color: white;
+    margin: 12px;
+}
+
+.opciones-ver{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 5px;
+    
+}
+
+.opciones-texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opcion-container{
+    display: flex;
+    padding-left: 12px;
+}
+
+.opcion-container p{
+    margin: 0;
+    margin-left: 6px;
+    color: white;
+}
+
+.opcion-container img{
+    width: 48px;
+    height: 48px;
+}
+
+.opciones-icon{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid white;
+}

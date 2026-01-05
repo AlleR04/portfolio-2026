@@ -40,10 +40,10 @@ const expInfo3 = `
 const expGallery = `
                 <div class="gallery">
                     <div class="gallery-container">
-                        <img src="./assets/2025_01.jpg" alt="">
-                        <img src="./assets/2025_02.jpg" alt="">
-                        <img src="./assets/2025_03.jpg" alt="">
-                        <img src="./assets/2025_04.jpg" alt="">
+                        <img src="./2025_01.jpg" alt="">
+                        <img src="./2025_02.jpg" alt="">
+                        <img src="./2025_03.jpg" alt="">
+                        <img src="./2025_04.jpg" alt="">
                         
                     </div>
                 </div>
@@ -52,10 +52,10 @@ const expGallery = `
 const expGallery2 = `
                 <div class="gallery">
                     <div class="gallery-container">
-                        <img src="./assets/2024_01.jpg" alt="">
-                        <img src="./assets/2024_02.jpg" alt="">
-                        <img src="./assets/2024_03.jpg" alt="">
-                        <img src="./assets/2024_04.jpg" alt="">
+                        <img src="./2024_01.jpg" alt="">
+                        <img src="./2024_02.jpg" alt="">
+                        <img src="./2024_03.jpg" alt="">
+                        <img src="./2024_04.jpg" alt="">
                     </div>
                 </div>
 
@@ -63,10 +63,10 @@ const expGallery2 = `
 const expGallery3 = `
                 <div class="gallery">
                     <div class="gallery-container">
-                        <img src="./assets/2022_01.jpg" alt="">
-                        <img src="./assets/2022_02.jpg" alt="">
-                        <img src="./assets/2022_03.jpg" alt="">
-                        <img src="./assets/2022_04.jpg" alt="">
+                        <img src="./2022_01.jpg" alt="">
+                        <img src="./2022_02.jpg" alt="">
+                        <img src="./2022_03.jpg" alt="">
+                        <img src="./2022_04.jpg" alt="">
                     </div>
                 </div>
 
@@ -93,5 +93,6 @@ let elementThree = document.querySelector(".year-3").addEventListener("mouseover
     textSection.innerHTML = expInfo3
     textSection.innerHTML += expGallery3
 })
+
 
 
